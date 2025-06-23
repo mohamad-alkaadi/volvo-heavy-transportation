@@ -32,7 +32,7 @@ const NavBar = () => {
             <Image
               draggable={false}
               src={logoImage}
-              className="w-[90px]"
+              className="w-[90px] max-[850px]:w-[70px]"
               alt="navigation logo"
             />
           </div>
